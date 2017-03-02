@@ -226,4 +226,4 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, mountNode);
+ReactDOM.render(<App />, document.getElementById('mountNode'));
