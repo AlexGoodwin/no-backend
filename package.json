@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "build": "babel src -d build"
+    "build": "babel src -d build",
+    "deploy": "npm run build && git add . && git commit -m 'deploying' && git push"
   },
   "repository": {
     "type": "git",
