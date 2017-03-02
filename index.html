@@ -7,25 +7,13 @@
   <title>Hello</title>
   <script src="https://unpkg.com/react@15/dist/react.min.js"></script>
   <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+  <link rel="style.css" />
 </head>
 <body>
   <h2>Title</h2>
 
   <div id="mountNode"></div>
-
-  <script>
-  const Hello = (props) => {
-  	return (
-      React.createElement("h2", null, `Hello, ${props.name}`)
-    )
-  }
-
-  ReactDOM.render(
-  	React.createElement(Hello, {
-    	name: "Alex"
-    }),
-    document.getElementById('mountNode')
-  );
-  </script>
+  <script type="build/index.js" charset="utf-8"></script>
 </body>
 </html>
