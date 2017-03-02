@@ -1,0 +1,19 @@
+{
+  "name": "no-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexGoodwin/no-backend.git"
+  },
+  "author": "Alex Goodwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexGoodwin/no-backend/issues"
+  },
+  "homepage": "https://github.com/AlexGoodwin/no-backend#readme"
+}
