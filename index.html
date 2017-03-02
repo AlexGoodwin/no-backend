@@ -5,8 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Hello</title>
+  <script src="https://unpkg.com/react@15/dist/react.min.js"></script>
+  <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
 </head>
 <body>
   <h2>Title</h2>
+
+  <div id="mountNode"></div>
+
+  <script>
+  const Hello = (props) => {
+  	return (
+      React.createElement("h2", null, `Hello, ${props.name}`)
+    )
+  }
+
+  ReactDOM.render(
+  	React.createElement(Hello, {
+    	name: "Alex"
+    }),
+    document.getElementById('mountNode')
+  );
+  </script>
 </body>
 </html>
