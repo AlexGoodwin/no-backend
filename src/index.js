@@ -1,5 +1,3 @@
-import range from 'lodash/range'
-
 // bit.ly/s-pcs
 var possibleCombinationSum = function(arr, n) {
   if (arr.indexOf(n) >= 0) { return true; }
